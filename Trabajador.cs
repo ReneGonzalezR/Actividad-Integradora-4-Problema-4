@@ -16,47 +16,17 @@ namespace Actividad_Integradora_4_Problema_4
 
         public Trabajador() { }
 
-        public void SetNombre(string valor)
-        {
-            Nombre = valor;
-        }
-        public void SetFechaNacimiento(string valor)
-        {
-            FechaNacimiento = valor;
-        }
-        public void SetSalario(double valor)
-        {
-            Salario = valor;
-        }
-        public void SetArea(string valor)
-        {
-            Area = valor;
-        }
-        public void SetDias(double valor)
-        {
-            Dias = valor;
-        }
+        public void SetNombre(string valor) { Nombre = valor; }
+        public void SetFechaNacimiento(string valor) {  FechaNacimiento = valor; }
+        public void SetSalario(double valor) { Salario = valor; }
+        public void SetArea(string valor) { Area = valor; }
+        public void SetDias(double valor) { Dias = valor; }
 
-        public string GetNombre()
-        {
-            return Nombre;
-        }
-        public string GetFechaNacimiento()
-        {
-            return FechaNacimiento;
-        }
-        public double GetSalario()
-        {
-            return Salario;
-        }
-        public string GetArea()
-        {
-            return Area;
-        }
-        public double GetDias()
-        {
-            return Dias;
-        }
+        public string GetNombre() {  return Nombre; }
+        public string GetFechaNacimiento() { return FechaNacimiento; }
+        public double GetSalario() { return Salario; }
+        public string GetArea() { return Area; }
+        public double GetDias() { return Dias; }
 
     }
 }
